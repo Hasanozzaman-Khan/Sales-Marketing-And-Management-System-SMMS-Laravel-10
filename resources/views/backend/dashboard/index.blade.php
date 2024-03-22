@@ -2,6 +2,7 @@
 
 @section('title', 'Dashboard')
 
+@section('dashboard-active', 'active')
 
 @section('content')
 

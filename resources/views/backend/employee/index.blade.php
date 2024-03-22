@@ -2,6 +2,9 @@
 
 @section('title', 'Manage Employee')
 
+@section('employee-expend', 'true')
+@section('employee-expend-show', 'show')
+@section('manage-employee-active', 'active')
 
 @section('content')
 

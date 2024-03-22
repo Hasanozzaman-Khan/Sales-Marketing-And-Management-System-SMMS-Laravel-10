@@ -1,7 +1,10 @@
 @extends('backend.layout.app')
 
-@section('title', 'Update Employee')
+@section('title', 'Approve Employee')
 
+@section('employee-expend', 'true')
+@section('employee-expend-show', 'show')
+@section('create-employee-active', 'active')
 
 @section('content')
 

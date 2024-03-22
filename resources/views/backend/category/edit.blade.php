@@ -2,6 +2,9 @@
 
 @section('title', 'Update Category')
 
+@section('category-expend', 'true')
+@section('category-expend-show', 'show')
+@section('manage-category-active', 'active')
 
 @section('content')
 <div class="container-fluid">

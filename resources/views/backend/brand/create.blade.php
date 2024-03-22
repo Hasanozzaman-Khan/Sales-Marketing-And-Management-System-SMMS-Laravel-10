@@ -2,6 +2,9 @@
 
 @section('title', 'Create Brand')
 
+@section('brand-expend', 'true')
+@section('brand-expend-show', 'show')
+@section('create-brand-active', 'active')
 
 @section('content')
 <div class="container-fluid">

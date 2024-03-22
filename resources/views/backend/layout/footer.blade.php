@@ -1,4 +1,4 @@
-<div class="footer bg-success">
+<div class="footer navbar-dark bg-danger">
     <h3 class="text-center">Footer</h3>
 </div>
 

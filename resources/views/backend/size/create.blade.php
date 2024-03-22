@@ -2,6 +2,9 @@
 
 @section('title', 'Create Size')
 
+@section('size-expend', 'true')
+@section('size-expend-show', 'show')
+@section('create-size-active', 'active')
 
 @section('content')
 <div class="container-fluid">

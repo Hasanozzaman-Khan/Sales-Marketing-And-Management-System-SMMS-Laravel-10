@@ -2,6 +2,9 @@
 
 @section('title', 'Manage Brand')
 
+@section('brand-expend', 'true')
+@section('brand-expend-show', 'show')
+@section('manage-brand-active', 'active')
 
 @section('content')
 

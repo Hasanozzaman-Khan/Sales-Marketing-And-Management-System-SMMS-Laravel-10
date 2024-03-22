@@ -68,10 +68,16 @@ Route::group(['middleware'=>'supervisor'], function(){
 Route::group(['middleware'=>'executive'], function(){
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
 
+    // Product
+    Route::put('/dashboard/product/{id}/stock-update', [ProductController::class, 'stockUpdate'])->name('product.stock.update');
+
     /************ Resource Route ***************/
     Route::resource('dashboard/product', ProductController::class);
 
 });
+
+
+
 
 // Customer
 Route::group(['middleware'=>'auth'], function(){

@@ -2,6 +2,9 @@
 
 @section('title', 'Manage Size')
 
+@section('size-expend', 'true')
+@section('size-expend-show', 'show')
+@section('manage-size-active', 'active')
 
 @section('content')
 

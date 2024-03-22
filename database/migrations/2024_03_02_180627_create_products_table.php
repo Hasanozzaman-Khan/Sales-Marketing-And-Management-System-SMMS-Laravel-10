@@ -25,7 +25,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->integer('stock')->default(0);
             $table->double('price');
-            $table->integer('is_discounted')->default(0);
+            $table->string('is_discounted')->default(0);
             $table->float('discount')->default(0);
             $table->double('discounted_price');
             $table->string('product_condition')->nullable();

@@ -2,6 +2,9 @@
 
 @section('title', 'Update Size')
 
+@section('size-expend', 'true')
+@section('size-expend-show', 'show')
+@section('manage-size-active', 'active')
 
 @section('content')
 <div class="container-fluid">
